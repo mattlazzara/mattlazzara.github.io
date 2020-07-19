@@ -1,8 +1,35 @@
 <!DOCTYPE html>
-<html>
+<title> Deerfield Weather Station</title>
+<HMTL>
+<head>
+<style>
+.redtext {
+   color: red;
+}
+.bluetext {
+   color: blue;
+}
+</style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<p>Testing</p>
+<center>
+<h1 class="bluetext">Lazzara Weather Station</h1>
+<p>
+<H3 class="redtext"><b>Rapsberry Pi Automatic Weather Station (AWS) Homepage<b></H3>
+<p>
+<img src="current.png" alt="Current Meteogram">
+<p>
+<h4>Latest Data: <h4>
+<h5>Time &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp T(C) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp T(F) &nbsp;&nbsp;&nbsp;&nbsp RH(%) &nbsp;&nbsp;&nbsp;&nbsp P(mb)<h5>
+<p>
+<iframe style="height:40px;overflow:auto" src="latest.txt">
+</iframe>
+</center>
+<ul>
+<li><a href="current.txt">Current day's text data listing</a>
+<li><a href="archive">Archived data (listings and graphs)</a>
+</ul>
+<p>
+<i> Credits:  Weather Station Assembly:  Noah </i>
 </body>
-</html>
+</HTML>
